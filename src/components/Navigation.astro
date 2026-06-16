@@ -3,9 +3,9 @@ import "../styles/global.css";
 ---
 
     <nav class="navegacion">
-        <a href="/">Inicio</a>
-        <a href="/estudios/">Estudios</a>
-        <a href="/practicas/">Prácticas</a>
+        <a class="linea" href="/">Inicio</a>
+        <a class="linea" href="/estudios/">Estudios</a>
+        <a class="linea" href="/practicas/">Prácticas</a>
         <a href="/contacto/">Contacto</a>
       </nav>
 
@@ -15,5 +15,13 @@ import "../styles/global.css";
         padding: 10px;
         font-size: 1rem;
         text-transform: uppercase;
+        
     }
+    .linea{
+        border-right: 1px solid black;
+    }
+    a:hover{
+        background-color: burlywood;
+    }
+    
   </style>

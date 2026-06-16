@@ -18,3 +18,64 @@
 .navegacion{
     margin-left: 20%;
 }
+
+
+html{
+    font-family: Arial;
+}
+.body-layout {
+    justify-content: center;
+    background: #E1DCC9;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.nombre{
+    margin: 30px;
+    text-align: center;
+    font-size: 3.6rem;
+    font-weight: bold;
+}
+
+.educacion{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulos{   
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.estudio{
+    font-size: 1.3rem;
+}
+
+p,ul{
+    width: 1000px;
+    margin: 40px 12%;
+}
+div{
+    text-align: center;
+}
+h1,h2,p{
+    text-align: center;
+}
+.negrita{
+    font-weight: bold;
+}
+
+html.dark {
+  background-color: #002d47;
+  color: #fff;
+}
+body.dark{
+    background-color: #002d47;
+}
+
+.dark a {
+  color: #fff;
+}
+
+

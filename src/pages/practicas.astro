@@ -1,0 +1,26 @@
+---
+import LayoutBasico from '../layouts/LayoutBasico.astro';
+import "../styles/global.css";
+const pageTitle = "CV Alejandro";
+---
+
+<LayoutBasico pageTitle={pageTitle}>
+
+    <h1 class="titulos">EXPERIENCIA PROFESIONAL</h1>
+    <div>
+        <div class="educacion">
+            <h2 class="negrita estudio">UNED - Desarrollador Web (Prácticas FCT)</h2>
+            <p>Madrid | 2024 - 2025</p>
+        </div>
+        <div class="educacion">
+            <h2 class="negrita estudio">DataSystem - Técnico Web / Contenidos (Prácticas FCT)</h2>
+            <p>Madrid | 2023 - 2024</p>
+        </div>
+        <div class="educacion">
+            <h2 class="negrita estudio">Indra Sistemas - Técnico Informático (Prácticas FCT)</h2>
+            <p>Madrid | 2020 - 2021</p>
+        </div>
+    </div>
+    <hr>
+</LayoutBasico>
+    
