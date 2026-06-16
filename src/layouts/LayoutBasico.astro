@@ -14,8 +14,10 @@ const { pageTitle } = Astro.props;
 		<title>{pageTitle}</title>
 	</head>
 	<body>
+	<h1>CV Alejandro León Manzanedo</h1>
 	<Header />
 		<slot />
+	<Footer />	
 	</body>
 </html>
 
@@ -25,11 +27,18 @@ const { pageTitle } = Astro.props;
 		font-family: Arial;
 	}
 	body {
-		display: flex;
 		justify-content: center;
 		background: #E1DCC9;
 		margin: 0;
 		width: 100%;
 		height: 100%;
 	}
+
+    h1{
+        margin: 30px;
+        text-align: center;
+        font-size: 3.6rem;
+        font-weight: bold;
+    }
+
 </style>

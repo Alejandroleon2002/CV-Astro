@@ -1,9 +1,46 @@
 ---
 import LayoutBasico from '../layouts/LayoutBasico.astro';
 import "../styles/global.css";
+const pageTitle = "CV Alejandro";
 ---
 
-<h1>CV Alejandro León Manzanedo</h1>
-<LayoutBasico>
+
+<LayoutBasico pageTitle={pageTitle}>
 </LayoutBasico>
 
+<h1>¿Quien soy?</h1>
+<p>Soy una persona apasionada por la tecnología y el desarrollo de software. Me gusta aprender nuevas herramientas y enfrentarme a retos que me permitan mejorar mis habilidades de programación. Destaco por mi capacidad de aprendizaje, trabajo en equipo y resolución de problemas.</p>
+<p>Desarrollador Web Junior especializado en HTML, CSS, JAVA, PHP, JavaScript y bases de datos MySQL. Actualmente continúo ampliando mis conocimientos en desarrollo web, arquitectura MVC y consumo de APIs, creando proyectos que me permiten aplicar tanto el desarrollo frontend como backend.</p>
+
+<div>
+    <h1>Tecnologías</h1>
+    <ul>
+        <li><span class="negrita">Frontend:</span> HTML5, CSS3, JavaScript</li>
+        <li><span class="negrita">Backend:</span> PHP, Java</li>
+        <li><span class="negrita">Bases de Datos:</span> MySQL, HSQLDB, MariaDB</li>
+        <li><span class="negrita">Control de Versiones:</span> Git, GitHub</li>
+        <li><span class="negrita">Herramientas:</span> XAMPP, Visual Studio</li>
+        <li><span class="negrita">Arquitecturas y Metodologías:</span> MVC, APIs REST</li>
+    </ul>
+</div>
+<style>
+    
+    h1{   
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+    p,ul{
+        width: 1000px;
+        margin: 40px 12%;
+    }
+    div{
+        text-align: center;
+    }
+    h1,p{
+        text-align: center;
+    }
+    .negrita{
+        font-weight: bold;
+    }
+    
+</style>

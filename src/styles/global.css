@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    width: 1200px;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+.navegacion{
+    margin-left: 20%;
+}
