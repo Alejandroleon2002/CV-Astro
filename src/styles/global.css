@@ -150,6 +150,17 @@ html.dark .logo {
     filter: invert(1) hue-rotate(180deg);
 }
 
+html.dark #themeToggle:hover {
+    cursor: pointer;
+    border-radius: 20%;
+    padding: 5px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    border-style: inset;
+    box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 0.25);
+    background: #0a2440;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .cabecera {
