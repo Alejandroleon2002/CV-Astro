@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-.cabecera{
+.cabecera {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,13 +24,13 @@
     background-color: #E1DCC9;
 }
 
-.navegacion{
+.navegacion {
     margin-left: 0;
     flex: 1;
     min-width: 250px;
 }
 
-html{
+html {
     font-family: Arial, sans-serif;
     scroll-behavior: smooth;
 }
@@ -46,7 +46,7 @@ html{
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.nombre{
+.nombre {
     margin: 30px 20px;
     text-align: center;
     font-size: clamp(2rem, 5vw, 3.6rem);
@@ -55,13 +55,13 @@ html{
     transition: color 0.3s ease;
 }
 
-.educacion{
+.educacion {
     display: flex;
     flex-direction: column;
     margin: 20px 0;
 }
 
-.titulos{   
+.titulos {
     font-size: clamp(1.5rem, 4vw, 2rem);
     text-transform: uppercase;
     color: #000;
@@ -72,11 +72,12 @@ html{
     width: 100%;
 }
 
-.estudio{
+.estudio {
     font-size: clamp(1rem, 2vw, 1.3rem);
 }
 
-p, ul {
+p,
+ul {
     max-width: 1000px;
     margin: 20px auto;
     padding: 0 20px;
@@ -85,19 +86,21 @@ p, ul {
     transition: color 0.3s ease;
 }
 
-div{
+div {
     text-align: center;
 }
 
-h1, h2, p{
+h1,
+h2,
+p {
     text-align: center;
 }
 
-.negrita{
+.negrita {
     font-weight: bold;
 }
 
-.container-contacto{
+.container-contacto {
     margin-bottom: 50px;
 }
 
@@ -132,7 +135,7 @@ html.dark .titulos {
     color: #fff;
 }
 
-html.dark p, 
+html.dark p,
 html.dark ul {
     color: #fff;
 }
@@ -178,7 +181,8 @@ html.dark #themeToggle:hover {
         height: 100px;
     }
 
-    p, ul {
+    p,
+    ul {
         margin: 15px auto;
     }
 
@@ -196,7 +200,8 @@ html.dark #themeToggle:hover {
         margin: 15px 10px;
     }
 
-    p, ul {
+    p,
+    ul {
         margin: 10px auto;
         padding: 0 15px;
     }
