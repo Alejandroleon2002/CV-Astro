@@ -1,10 +1,14 @@
 ---
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
 import "../styles/global.css";
 const { pageTitle } = Astro.props;
 ---
-<html lang="es">
+
+<html
+  lang="es"
+  class="scroll-smooth bg-[#E1DCC9] font-sans text-black dark:bg-[#002d47] dark:text-white"
+>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
@@ -12,8 +16,14 @@ const { pageTitle } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
   </head>
-  <body class="body-layout page-enter">
-    <h1 class="nombre">CV Alejandro León Manzanedo</h1>
+  <body
+    class="page-enter flex min-h-screen w-full flex-col justify-center bg-[#E1DCC9] text-black transition-colors duration-300 dark:bg-[#002d47] dark:text-white"
+  >
+    <h1
+      class="mx-2.5 my-5 text-center text-[clamp(2rem,5vw,3.6rem)] font-bold text-black transition-colors duration-300 sm:mx-5 sm:my-[30px] dark:text-white"
+    >
+      CV Alejandro León Manzanedo
+    </h1>
     <Header />
     <slot />
     <Footer />

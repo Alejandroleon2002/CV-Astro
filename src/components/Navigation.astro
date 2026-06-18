@@ -1,56 +1,13 @@
 ---
-import "../styles/global.css";
+const linkClass =
+    "mr-[5px] border-r border-current px-3 py-2 text-[0.9rem] uppercase text-inherit no-underline transition-[background-color,box-shadow] duration-500 hover:rounded-xl hover:bg-[#b1ada8]/70 hover:shadow-[0_0_15px_rgba(177,173,168,1)] md:mr-2.5 md:px-[15px] md:py-2.5 md:text-[clamp(0.8rem,2vw,1rem)]";
 ---
 
-<nav class="navegacion">
-    <a class="linea" href="/">Inicio</a>
-    <a class="linea" href="/estudios/">Estudios</a>
-    <a class="linea" href="/practicas/">Prácticas</a>
-    <a class="linea" href="/contacto/">Contacto</a>
+<nav
+    class="ml-0 flex w-full min-w-[250px] flex-1 flex-wrap justify-center gap-[5px] text-center"
+>
+    <a class={linkClass} href="/">Inicio</a>
+    <a class={linkClass} href="/estudios/">Estudios</a>
+    <a class={linkClass} href="/practicas/">Prácticas</a>
+    <a class={linkClass} href="/contacto/">Contacto</a>
 </nav>
-
-<style>
-    nav {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 5px;
-    }
-
-    a {
-        padding: 10px 15px;
-        font-size: clamp(0.8rem, 2vw, 1rem);
-        text-transform: uppercase;
-        text-decoration: none;
-        color: inherit;
-        transition: background-color 0.5s ease, box-shadow 0.5s ease;
-        
-    }
-
-    .linea {
-        border-right: 1px solid currentColor;
-        margin-right: 10px;
-    }
-
-
-    a:hover {
-        background-color: rgba(177, 173, 168, 0.7);
-        box-shadow: 0 0 15px rgba(177, 173, 168, 1);
-        border-radius: 12px;
-    }
-
-    @media (max-width: 768px) {
-        nav {
-            width: 100%;
-        }
-
-        a {
-            padding: 8px 12px;
-            font-size: 0.9rem;
-        }
-
-        .linea {
-            margin-right: 5px;
-        }
-    }
-</style>

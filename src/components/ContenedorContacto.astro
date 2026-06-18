@@ -1,8 +1,8 @@
 ---
 const { plataforma, usuario, Icon } = Astro.props;
 ---
-<a href={`https://www.${plataforma}.com/${usuario}`}>
-    {Icon ? <Icon class="contact-icon" /> : null}
+<a class="inline-flex items-center gap-3 rounded-[10px] bg-[#978F66] px-5 py-4 text-2xl text-white no-underline transition-all duration-500 hover:rounded-[10px] hover:bg-[#978F66] hover:text-[2rem] hover:text-white hover:no-underline" href={`https://www.${plataforma}.com/${usuario}`}>
+    {Icon ? <Icon class="h-6 w-6 shrink-0 text-white" /> : null}
     {plataforma}
 </a>
 
